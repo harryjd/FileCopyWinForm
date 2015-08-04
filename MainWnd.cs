@@ -17,7 +17,7 @@ namespace FileDuplicateAPP
         public static int N_MAX_COUNT = 100;
         public long N_TotalFileSize = 0;
         public long N_FileSizeCopyed = 0;
-        public int M_TranSize = 33554432;//默认每次读写32MB的大小
+        public int M_TranSize = 67108864;//默认每次读写64MB的大小
         //private int mf_Pos;
 
         SynchronizationContext m_syncContext = null;
